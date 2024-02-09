@@ -1,0 +1,22 @@
+# Classes:
+    1. class are created for the business logics you use the classes to create the instances of the classes with "new" keyword.
+
+    # Private key word:
+
+        when you want to make some variable non-accessible outside of the class you put it at private this was done by two ways.
+            1. using "private" keyword in front of variable
+            2. or else use the "#" symbol in fron of the variable to make it private.
+            3. in private variables you can only access within the class not even in the child classes you shouldn't able to access.
+    
+    # protected keyword:
+
+        when you want to make the variable only accessible inside the class as well as from the child class you can use the protected keyword.
+        but you can't able to acceess this variable from the instances of the classes.
+    
+    # Static Method:
+        when you use the static keyword in any method that method is only accessable from the class level not from the instance level,
+        also this static method doesn't depend on the class as well as instance changes.
+
+        this method is only accessable from where you created and the name of the class to acess the static methods.
+
+    
