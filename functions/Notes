@@ -1,0 +1,21 @@
+# functions:
+the function have some different types:
+    1. Generic function
+    2. optional parameters
+    3. Required parameters
+    4. rest parameters.
+
+Optional Parameter:
+    in this type of parameters you may have to pass or else no need to pass based on your wish using this "?" infront of the parameter
+    to know the typeScript ok this parameter is an optional.
+    
+Required parameter:
+    you need to add some default values to the required parameters to avoid an errors, here you should pass the requied parameter
+    or else it will take the default one.
+
+Generic function:
+    The generic function are act like an template for the function it was used like a reusable code and here we using the placeholder as a <T>
+    so this T was act like an placeholder for this one.
+
+    so you may have to pass the any type of data to this generic function it will automatically allocate the data type which one you passed
+    as a parameter to the function as the function data type.

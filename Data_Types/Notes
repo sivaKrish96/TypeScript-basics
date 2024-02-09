@@ -1,0 +1,27 @@
+# Data Types:
+
+1. String
+2. Number
+3. Boolean
+4. void
+5. null
+6. any
+7. undefined
+8. enum
+9. tuple
+
+# Type Inference:
+the type inference was used to determine the data types of the assigned value to the variable automatically when you didn't mention the data type.
+
+# enum:
+enum in typescript provide a way to define a set of named constant with number or string values.
+
+when you use the const before the enum it will avoid the unnecessary transformation of the javascript code for this enum and during the production
+code make looks readable.
+
+# Tuples:
+tuples in typescript was used to declare the different type of data for array like { let employee: [num, string][] } like this.
+
+# any:
+when you didn't mention the data types the typeScript was automatically assign "any" datatype to the variable. but for the good practice you 
+don't use the "any" data type.
