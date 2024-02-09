@@ -20,7 +20,6 @@ strinArray.push("251600");
 console.log(strinArray)
 
 // Enum:
-
 const enum Direction {
     North = 1,
     South = 2,
@@ -31,3 +30,26 @@ const enum Direction {
 let myDirection: Direction = Direction.North;
 console.log(myDirection)
 
+// Tuples:
+export const employees: [number, string][] = [];
+employees.push([1, 'Siva'])
+employees.push([2, 'venkatesh'])
+employees.push([3, 'jothiram'])
+console.log(employees)
+
+export let swapNumbers: [firsNumber: number, secondNumber: number];
+
+function swap(num1: number, num2: number): [number, number] {
+    return [num2, num1]
+}
+
+swapNumbers = swap(2, 3)
+
+export let employeeDetailsSwap: [age: number, name: string];
+
+function swapEmployee(name: string, age: number): [number, string] {
+    return [age, name]
+}
+
+employeeDetailsSwap = swapEmployee('Sivaraman', 27)
+console.log(employeeDetailsSwap)

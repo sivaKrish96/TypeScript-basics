@@ -30,3 +30,9 @@ the type inference was used to determine the data types of the assigned value to
 
 # enum:
 enum in typescript provide a way to define a set of named constant with number or string values.
+
+when you use the const before the enum it will avoid the unnecessary transformation of the javascript code for this enum and during the production
+code make looks readable.
+
+# Tuples:
+tuples in typescript was used to declare the different type of data for array like { let employee: [num, string][] } like this.

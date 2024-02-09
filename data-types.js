@@ -1,7 +1,7 @@
 "use strict";
 // Data Types Exercise:
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.strinArray = exports.numbersarray = void 0;
+exports.employeeDetailsSwap = exports.swapNumbers = exports.employees = exports.strinArray = exports.numbersarray = void 0;
 // Numbers of Array:
 exports.numbersarray = [];
 exports.numbersarray.push(1);
@@ -19,3 +19,18 @@ exports.strinArray.push("251600");
 console.log(exports.strinArray);
 var myDirection = 1 /* Direction.North */;
 console.log(myDirection);
+// Tuples:
+exports.employees = [];
+exports.employees.push([1, 'Siva']);
+exports.employees.push([2, 'venkatesh']);
+exports.employees.push([3, 'jothiram']);
+console.log(exports.employees);
+function swap(num1, num2) {
+    return [num2, num1];
+}
+exports.swapNumbers = swap(2, 3);
+function swapEmployee(name, age) {
+    return [age, name];
+}
+exports.employeeDetailsSwap = swapEmployee('Sivaraman', 27);
+console.log(exports.employeeDetailsSwap);
