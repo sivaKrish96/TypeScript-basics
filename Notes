@@ -1,0 +1,32 @@
+# TypeScript:
+
+1. typeScript is a superset of the javascript language and it was strongly types language.
+2. it was invented by Microsoft.
+
+# Why We are using the typeScript:
+
+1. typescript is an compiled language but browser was doesn't understand so once the compilation was completed it turns into javascript file. it was easily find out the Type Error during the compilation.
+
+# Important Concepts on the TypeScript:
+
+1. Data Types
+2. Type Inference
+3. Generics
+4. Union and Intersection Types
+5. Literal Types
+
+# Data Types:
+
+1. String
+2. Number
+3. Boolean
+4. void
+5. null
+6. any
+7. undefined
+
+# Type Inference:
+the type inference was used to determine the data types of the assigned value to the variable automatically when you didn't mention the data type.
+
+# enum:
+enum in typescript provide a way to define a set of named constant with number or string values.
