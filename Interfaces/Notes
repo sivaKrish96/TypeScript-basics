@@ -6,3 +6,10 @@
     5. Optional properties.
     6. Object Destructuring.
     7. Array Destructuring.
+
+Interfaces are used to enforce the contract on your code, it's nothing what are properties you defined in your code it will definitely be there in
+your object creation.
+
+if you want make some property in optional you just use the "?" question mark infront of the colon.
+
+when you want extend your predefined interface with new one you can use the "extends" keyword like { interface Employee extends User } like wise.
